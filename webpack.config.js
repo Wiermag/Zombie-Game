@@ -9,7 +9,6 @@ module.exports = {
   output: {
     filename: "out.js",
     path: path.resolve(__dirname, `build`),
- 
   },
   devServer: {
     contentBase: [path.join(__dirname, 'build'), path.join(__dirname, 'public')],
