@@ -8,7 +8,7 @@ module.exports = {
   entry: `./${entryPath}/${entryFile}`, // entry: './src/app.js'
   output: {
     filename: "out.js",
-    path: path.resolve(__dirname, `build`),
+    path: path.resolve(__dirname, `build`) 
   },
   devServer: {
     contentBase: [path.join(__dirname, 'build'), path.join(__dirname, 'public')],
@@ -49,7 +49,6 @@ module.exports = {
         query: { name: '[name].[ext]' }
       }
       
-
     ]
   }
 };

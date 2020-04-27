@@ -2,13 +2,11 @@
   "name": "magda-zombie-game",
   "version": "1.0.0",
   "description": "",
-  "homepage": "./",
   "main": "out.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --hot -d",
-    "build": "webpack -p",
-    "deploy": "gh-pages -d build"
+    "build": "webpack -p"
   },
   "keywords": [],
   "author": "",
