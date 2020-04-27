@@ -43,6 +43,10 @@ module.exports = {
       {
         test: /\.(jpe?g|gif|png|svg)$/,
         loader: "file-loader",
+      },
+      { test: /index\.html/,
+        loader: 'file-loader', 
+        query: { name: '[name].[ext]' }
       }
       
 
