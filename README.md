@@ -7,6 +7,7 @@
 
 ## About Project 
 Game created using html, js and css.
+PLAY => https://wiermag.github.io/Zombie-Game/
 
 ## Technologies
 Project is created with:
