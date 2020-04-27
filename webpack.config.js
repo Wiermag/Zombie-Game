@@ -3,7 +3,7 @@ const entryPath = "src";
 const entryFile = "app.js";
 const autoprefixer = require('autoprefixer');
 
-
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   entry: `./${entryPath}/${entryFile}`, // entry: './src/app.js'
   output: {
@@ -44,10 +44,7 @@ module.exports = {
         test: /\.(jpe?g|gif|png|svg)$/,
         loader: "file-loader",
       },
-      { test: /index\.html/,
-        loader: 'file-loader', 
-        query: { name: '[name].[ext]' }
-      }
+    
       
     ]
   }
